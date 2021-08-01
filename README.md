@@ -4,18 +4,18 @@
 --- INTRODUCTION ---
 
 Hi, there! This is a simple boilerplate that features 4 pages:
---- 1. Registration Page (Landing)
---- 2. Verification Page (!not completed)
---- 3. Login Page
---- 4. Success Page (Dashboard)
+1. Registration Page (Landing)
+2. Verification Page (!not completed)
+3. Login Page
+4. Success Page (Dashboard)
 
 --------------------
 
 --- TECHNOLOGY ---
 
 This app is built on Vue.js
---- Vue-router handles the redirects and page handling
---- Axios library is used to make HTTP/AJAX requests
+- Vue-router handles the redirects and page handling
+- Axios library is used to make HTTP/AJAX requests
 
 ------------------
 
