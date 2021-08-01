@@ -1,4 +1,54 @@
-# challenge_vue
+# CODING CHALLENGE FOR APPETISER APPS
+
+~~~ INTRODUCTION ~~~
+```
+Hi, there! This is a simple boilerplate that features 4 pages:
+--- 1. Registration Page (Landing)
+--- 2. Verification Page (!not completed)
+--- 3. Login Page
+--- 4. Success Page (Dashboard)
+```
+~~~~~~~~~~~~~~~~~~~~
+
+~~~ TECHNOLOGY ~~~
+```
+This app is built on Vue.js
+--- Vue-router handles the redirects and page handling
+--- Axios library is used to make HTTP/AJAX requests
+```
+~~~~~~~~~~~~~~~~~~
+
+~~~ REGISTRATION PAGE ~~~
+```
+[POST Register With Email]
+- Register component takes in form inputs to save and send as JSON objects
+- Async "reggie" method waits for information from form to POST to baseplate api
+- If successful post, routes to login page
+```
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ VERIFICATION PAGE ~~~
+```
+- Unfortunately, this page was not build
+```
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ LOGIN PAGE ~~~
+```
+[POST Login]
+- Login component takes in username and password (where username = email)
+- Async "carlog" method waits for form submission to confirm with baseplate api
+- Authentication token remembered in local storage to save user login info
+- If successful, routes to success page
+```
+
+~~~ SUCCESS PAGE ~~~
+```
+- Success displayed if status code received is 200 (authenticated)
+- Otherwise, displays error code and reason
+```
+~~~~~~~~~~~~~~~~~~~~
+
 
 ## Project setup
 ```
